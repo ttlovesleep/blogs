@@ -9,6 +9,14 @@ import GlobalLayout from "C:\\myWork\\学习文件\\myblog\\blogs\\node_modules\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-48e637cb",
+    path: "/blogs/1.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-48e637cb").then(next)
+    },
+  },
+  {
     name: "v-aaa83dfa",
     path: "/",
     component: GlobalLayout,
@@ -21,11 +29,11 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-48e637cb",
-    path: "/blogs/1.html",
+    name: "v-c976232a",
+    path: "/blogs/2.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-48e637cb").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-c976232a").then(next)
     },
   },
   {
@@ -37,12 +45,108 @@ export const routes = [
     },
   },
   {
-    name: "v-c976232a",
-    path: "/blogs/2.html",
+    name: "v-b1564aac",
+    path: "/tag/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-c976232a").then(next)
+      ensureAsyncComponentsLoaded("Tags", "v-b1564aac").then(next)
     },
+    meta: {"pid":"tags","id":"tags"}
+  },
+  {
+    path: "/tag/index.html",
+    redirect: "/tag/"
+  },
+  {
+    name: "v-ef9325c4",
+    path: "/categories/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("FrontmatterKey", "v-ef9325c4").then(next)
+    },
+    meta: {"pid":"categories","id":"categories"}
+  },
+  {
+    path: "/categories/index.html",
+    redirect: "/categories/"
+  },
+  {
+    name: "v-6319eb4e",
+    path: "/timeline/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("TimeLines", "v-6319eb4e").then(next)
+    },
+    meta: {"pid":"timeline","id":"timeline"}
+  },
+  {
+    path: "/timeline/index.html",
+    redirect: "/timeline/"
+  },
+  {
+    name: "v-7a5f6990",
+    path: "/tag/JavaScript/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-7a5f6990").then(next)
+    },
+    meta: {"pid":"tags","id":"JavaScript"}
+  },
+  {
+    path: "/tag/JavaScript/index.html",
+    redirect: "/tag/JavaScript/"
+  },
+  {
+    name: "v-de8294a6",
+    path: "/tag/手写/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-de8294a6").then(next)
+    },
+    meta: {"pid":"tags","id":"手写"}
+  },
+  {
+    path: "/tag/手写/index.html",
+    redirect: "/tag/手写/"
+  },
+  {
+    name: "v-2e43d6f9",
+    path: "/tag/想到什么写什么/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-2e43d6f9").then(next)
+    },
+    meta: {"pid":"tags","id":"想到什么写什么"}
+  },
+  {
+    path: "/tag/想到什么写什么/index.html",
+    redirect: "/tag/想到什么写什么/"
+  },
+  {
+    name: "v-14bbbf36",
+    path: "/categories/前端/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-14bbbf36").then(next)
+    },
+    meta: {"pid":"categories","id":"前端"}
+  },
+  {
+    path: "/categories/前端/index.html",
+    redirect: "/categories/前端/"
+  },
+  {
+    name: "v-2bf76980",
+    path: "/categories/随笔/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-2bf76980").then(next)
+    },
+    meta: {"pid":"categories","id":"随笔"}
+  },
+  {
+    path: "/categories/随笔/index.html",
+    redirect: "/categories/随笔/"
   },
   {
     path: '*',

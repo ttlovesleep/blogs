@@ -8,6 +8,25 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
+      "title": "手把手教你轻松手写防抖和节流🔥",
+      "frontmatter": {
+        "title": "手把手教你轻松手写防抖和节流🔥",
+        "date": "2023-1-1",
+        "categories": [
+          "前端"
+        ],
+        "tags": [
+          "JavaScript",
+          "手写"
+        ],
+        "sticky": 1
+      },
+      "regularPath": "/blogs/1.html",
+      "relativePath": "blogs/1.md",
+      "key": "v-48e637cb",
+      "path": "/blogs/1.html"
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -26,23 +45,22 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "手把手教你轻松手写防抖和节流🔥",
+      "title": "2023对自己说的话",
       "frontmatter": {
-        "title": "手把手教你轻松手写防抖和节流🔥",
+        "title": "2023对自己说的话",
         "date": "2023-1-1",
         "categories": [
-          "前端"
+          "随笔"
         ],
         "tags": [
-          "JavaScript",
-          "手写"
+          "想到什么写什么"
         ],
-        "sticky": 1
+        "sticky": 2
       },
-      "regularPath": "/blogs/1.html",
-      "relativePath": "blogs/1.md",
-      "key": "v-48e637cb",
-      "path": "/blogs/1.html"
+      "regularPath": "/blogs/2.html",
+      "relativePath": "blogs/2.md",
+      "key": "v-c976232a",
+      "path": "/blogs/2.html"
     },
     {
       "title": "手把手教你轻松手写防抖和节流🔥",
@@ -64,22 +82,76 @@ export const siteData = {
       "path": "/blogs/3.html"
     },
     {
-      "title": "2023对自己说的话",
       "frontmatter": {
-        "title": "2023对自己说的话",
-        "date": "2023-1-1",
-        "categories": [
-          "随笔"
-        ],
-        "tags": [
-          "想到什么写什么"
-        ],
-        "sticky": 2
+        "layout": "Tags",
+        "title": "Tags"
       },
-      "regularPath": "/blogs/2.html",
-      "relativePath": "blogs/2.md",
-      "key": "v-c976232a",
-      "path": "/blogs/2.html"
+      "regularPath": "/tag/",
+      "key": "v-b1564aac",
+      "path": "/tag/"
+    },
+    {
+      "frontmatter": {
+        "layout": "FrontmatterKey",
+        "title": "Categories"
+      },
+      "regularPath": "/categories/",
+      "key": "v-ef9325c4",
+      "path": "/categories/"
+    },
+    {
+      "frontmatter": {
+        "layout": "TimeLines",
+        "title": "Timeline"
+      },
+      "regularPath": "/timeline/",
+      "key": "v-6319eb4e",
+      "path": "/timeline/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "JavaScript Tags"
+      },
+      "regularPath": "/tag/JavaScript/",
+      "key": "v-7a5f6990",
+      "path": "/tag/JavaScript/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "手写 Tags"
+      },
+      "regularPath": "/tag/%E6%89%8B%E5%86%99/",
+      "key": "v-de8294a6",
+      "path": "/tag/手写/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "想到什么写什么 Tags"
+      },
+      "regularPath": "/tag/%E6%83%B3%E5%88%B0%E4%BB%80%E4%B9%88%E5%86%99%E4%BB%80%E4%B9%88/",
+      "key": "v-2e43d6f9",
+      "path": "/tag/想到什么写什么/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "前端 Categories"
+      },
+      "regularPath": "/categories/%E5%89%8D%E7%AB%AF/",
+      "key": "v-14bbbf36",
+      "path": "/categories/前端/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "随笔 Categories"
+      },
+      "regularPath": "/categories/%E9%9A%8F%E7%AC%94/",
+      "key": "v-2bf76980",
+      "path": "/categories/随笔/"
     }
   ],
   "themeConfig": {

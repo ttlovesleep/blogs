@@ -1,0 +1,1 @@
+export { default } from "C:\\myWork\\学习文件\\myblog\\blogs\\node_modules\\@vuepress-reco\\vuepress-plugin-back-to-top\\bin\\enhanceAppFile.js"

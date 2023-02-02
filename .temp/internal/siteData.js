@@ -8,25 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "手把手教你轻松手写防抖和节流🔥",
-      "frontmatter": {
-        "title": "手把手教你轻松手写防抖和节流🔥",
-        "date": "2023-1-1",
-        "categories": [
-          "前端"
-        ],
-        "tags": [
-          "JavaScript",
-          "手写"
-        ],
-        "sticky": 1
-      },
-      "regularPath": "/blogs/1.html",
-      "relativePath": "blogs/1.md",
-      "key": "v-48e637cb",
-      "path": "/blogs/1.html"
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -45,41 +26,132 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "2023对自己说的话",
+      "title": "视频文件放在HTML中播放不成功",
       "frontmatter": {
-        "title": "2023对自己说的话",
-        "date": "2023-1-1",
-        "categories": [
-          "随笔"
-        ],
-        "tags": [
-          "想到什么写什么"
-        ],
-        "sticky": 2
-      },
-      "regularPath": "/blogs/2.html",
-      "relativePath": "blogs/2.md",
-      "key": "v-c976232a",
-      "path": "/blogs/2.html"
-    },
-    {
-      "title": "手把手教你轻松手写防抖和节流🔥",
-      "frontmatter": {
-        "title": "手把手教你轻松手写防抖和节流🔥",
-        "date": "2023-1-1",
+        "title": "视频文件放在HTML中播放不成功",
+        "date": "2023-2-2",
         "categories": [
           "前端"
         ],
         "tags": [
-          "JavaScript",
-          "手写"
+          "工作问题总结"
+        ],
+        "sticky": 0
+      },
+      "regularPath": "/blogs/1.html",
+      "relativePath": "blogs/1.md",
+      "key": "v-48e637cb",
+      "path": "/blogs/1.html"
+    },
+    {
+      "title": "2023对自己说的话",
+      "frontmatter": {
+        "title": "2023对自己说的话",
+        "date": "2023-1-30",
+        "categories": [
+          "随笔"
+        ],
+        "tags": [
+          "mood"
+        ],
+        "sticky": 0
+      },
+      "regularPath": "/blogs/2.html",
+      "relativePath": "blogs/2.md",
+      "key": "v-c976232a",
+      "path": "/blogs/2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "工作",
+          "slug": "工作"
+        },
+        {
+          "level": 2,
+          "title": "学习",
+          "slug": "学习"
+        },
+        {
+          "level": 2,
+          "title": "生活",
+          "slug": "生活"
+        }
+      ]
+    },
+    {
+      "title": ".md文档写作规范",
+      "frontmatter": {
+        "title": ".md文档写作规范",
+        "date": "2023-2-2",
+        "categories": [
+          "前端"
+        ],
+        "tags": [
+          "markdown"
         ],
         "sticky": 1
       },
       "regularPath": "/blogs/3.html",
       "relativePath": "blogs/3.md",
       "key": "v-24b8b5ea",
-      "path": "/blogs/3.html"
+      "path": "/blogs/3.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、标题语法",
+          "slug": "一、标题语法"
+        },
+        {
+          "level": 2,
+          "title": "二、段落语法",
+          "slug": "二、段落语法"
+        },
+        {
+          "level": 2,
+          "title": "三、换行语法",
+          "slug": "三、换行语法"
+        },
+        {
+          "level": 2,
+          "title": "四、强调语法",
+          "slug": "四、强调语法"
+        },
+        {
+          "level": 2,
+          "title": "五、引用语法",
+          "slug": "五、引用语法"
+        },
+        {
+          "level": 2,
+          "title": "六、列表语法",
+          "slug": "六、列表语法"
+        }
+      ]
+    },
+    {
+      "title": "前端小知识",
+      "frontmatter": {
+        "title": "前端小知识",
+        "date": "2023-2-2",
+        "categories": [
+          "前端"
+        ],
+        "tags": [
+          "js"
+        ],
+        "sticky": 0
+      },
+      "regularPath": "/blogs/4.study.html",
+      "relativePath": "blogs/4.study.md",
+      "key": "v-389cea4b",
+      "path": "/blogs/4.study.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "数组去重",
+          "slug": "数组去重"
+        }
+      ]
     },
     {
       "frontmatter": {
@@ -111,29 +183,38 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "JavaScript Tags"
+        "title": "工作问题总结 Tags"
       },
-      "regularPath": "/tag/JavaScript/",
-      "key": "v-7a5f6990",
-      "path": "/tag/JavaScript/"
+      "regularPath": "/tag/%E5%B7%A5%E4%BD%9C%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/",
+      "key": "v-9c80e83c",
+      "path": "/tag/工作问题总结/"
     },
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "手写 Tags"
+        "title": "mood Tags"
       },
-      "regularPath": "/tag/%E6%89%8B%E5%86%99/",
-      "key": "v-de8294a6",
-      "path": "/tag/手写/"
+      "regularPath": "/tag/mood/",
+      "key": "v-142138a4",
+      "path": "/tag/mood/"
     },
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "想到什么写什么 Tags"
+        "title": "markdown Tags"
       },
-      "regularPath": "/tag/%E6%83%B3%E5%88%B0%E4%BB%80%E4%B9%88%E5%86%99%E4%BB%80%E4%B9%88/",
-      "key": "v-2e43d6f9",
-      "path": "/tag/想到什么写什么/"
+      "regularPath": "/tag/markdown/",
+      "key": "v-3ae5b494",
+      "path": "/tag/markdown/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "js Tags"
+      },
+      "regularPath": "/tag/js/",
+      "key": "v-e8d86dc8",
+      "path": "/tag/js/"
     },
     {
       "frontmatter": {

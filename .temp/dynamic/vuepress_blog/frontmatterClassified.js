@@ -3,30 +3,36 @@
  */
 export default {
   "tags": {
-    "JavaScript": {
-      "key": "JavaScript",
+    "工作问题总结": {
+      "key": "工作问题总结",
       "scope": "tags",
-      "path": "/tag/JavaScript/",
+      "path": "/tag/工作问题总结/",
       "pageKeys": [
-        "v-48e637cb",
-        "v-24b8b5ea"
+        "v-48e637cb"
       ]
     },
-    "手写": {
-      "key": "手写",
+    "mood": {
+      "key": "mood",
       "scope": "tags",
-      "path": "/tag/手写/",
-      "pageKeys": [
-        "v-48e637cb",
-        "v-24b8b5ea"
-      ]
-    },
-    "想到什么写什么": {
-      "key": "想到什么写什么",
-      "scope": "tags",
-      "path": "/tag/想到什么写什么/",
+      "path": "/tag/mood/",
       "pageKeys": [
         "v-c976232a"
+      ]
+    },
+    "markdown": {
+      "key": "markdown",
+      "scope": "tags",
+      "path": "/tag/markdown/",
+      "pageKeys": [
+        "v-24b8b5ea"
+      ]
+    },
+    "js": {
+      "key": "js",
+      "scope": "tags",
+      "path": "/tag/js/",
+      "pageKeys": [
+        "v-389cea4b"
       ]
     }
   },
@@ -37,7 +43,8 @@ export default {
       "path": "/categories/前端/",
       "pageKeys": [
         "v-48e637cb",
-        "v-24b8b5ea"
+        "v-24b8b5ea",
+        "v-389cea4b"
       ]
     },
     "随笔": {

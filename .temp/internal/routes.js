@@ -9,14 +9,6 @@ import GlobalLayout from "C:\\myWork\\学习文件\\myblog\\blogs\\node_modules\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-48e637cb",
-    path: "/blogs/1.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-48e637cb").then(next)
-    },
-  },
-  {
     name: "v-aaa83dfa",
     path: "/",
     component: GlobalLayout,
@@ -27,6 +19,14 @@ export const routes = [
   {
     path: "/index.html",
     redirect: "/"
+  },
+  {
+    name: "v-48e637cb",
+    path: "/blogs/1.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-48e637cb").then(next)
+    },
   },
   {
     name: "v-c976232a",
@@ -42,6 +42,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-24b8b5ea").then(next)
+    },
+  },
+  {
+    name: "v-389cea4b",
+    path: "/blogs/4.study.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-389cea4b").then(next)
     },
   },
   {
@@ -84,43 +92,56 @@ export const routes = [
     redirect: "/timeline/"
   },
   {
-    name: "v-7a5f6990",
-    path: "/tag/JavaScript/",
+    name: "v-9c80e83c",
+    path: "/tag/工作问题总结/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-7a5f6990").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-9c80e83c").then(next)
     },
-    meta: {"pid":"tags","id":"JavaScript"}
+    meta: {"pid":"tags","id":"工作问题总结"}
   },
   {
-    path: "/tag/JavaScript/index.html",
-    redirect: "/tag/JavaScript/"
+    path: "/tag/工作问题总结/index.html",
+    redirect: "/tag/工作问题总结/"
   },
   {
-    name: "v-de8294a6",
-    path: "/tag/手写/",
+    name: "v-142138a4",
+    path: "/tag/mood/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-de8294a6").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-142138a4").then(next)
     },
-    meta: {"pid":"tags","id":"手写"}
+    meta: {"pid":"tags","id":"mood"}
   },
   {
-    path: "/tag/手写/index.html",
-    redirect: "/tag/手写/"
+    path: "/tag/mood/index.html",
+    redirect: "/tag/mood/"
   },
   {
-    name: "v-2e43d6f9",
-    path: "/tag/想到什么写什么/",
+    name: "v-3ae5b494",
+    path: "/tag/markdown/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-2e43d6f9").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-3ae5b494").then(next)
     },
-    meta: {"pid":"tags","id":"想到什么写什么"}
+    meta: {"pid":"tags","id":"markdown"}
   },
   {
-    path: "/tag/想到什么写什么/index.html",
-    redirect: "/tag/想到什么写什么/"
+    path: "/tag/markdown/index.html",
+    redirect: "/tag/markdown/"
+  },
+  {
+    name: "v-e8d86dc8",
+    path: "/tag/js/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-e8d86dc8").then(next)
+    },
+    meta: {"pid":"tags","id":"js"}
+  },
+  {
+    path: "/tag/js/index.html",
+    redirect: "/tag/js/"
   },
   {
     name: "v-14bbbf36",

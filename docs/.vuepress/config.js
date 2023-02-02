@@ -58,7 +58,7 @@ module.exports = {
     [
       'sakura',
       {
-        num: 20, // 默认数量
+        num: 10, // 默认数量
         show: true, //  是否显示
         zIndex: -1, // 层级
         img: {

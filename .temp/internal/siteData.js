@@ -22,26 +22,8 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-aaa83dfa",
+      "key": "v-4d5dd166",
       "path": "/"
-    },
-    {
-      "title": "视频文件放在HTML中播放不成功",
-      "frontmatter": {
-        "title": "视频文件放在HTML中播放不成功",
-        "date": "2023-2-2",
-        "categories": [
-          "前端"
-        ],
-        "tags": [
-          "工作问题总结"
-        ],
-        "sticky": 0
-      },
-      "regularPath": "/blogs/1.html",
-      "relativePath": "blogs/1.md",
-      "key": "v-48e637cb",
-      "path": "/blogs/1.html"
     },
     {
       "title": "2023对自己说的话",
@@ -58,7 +40,7 @@ export const siteData = {
       },
       "regularPath": "/blogs/2.html",
       "relativePath": "blogs/2.md",
-      "key": "v-c976232a",
+      "key": "v-34041230",
       "path": "/blogs/2.html",
       "headers": [
         {
@@ -79,6 +61,24 @@ export const siteData = {
       ]
     },
     {
+      "title": "视频文件放在HTML中播放不成功",
+      "frontmatter": {
+        "title": "视频文件放在HTML中播放不成功",
+        "date": "2023-2-2",
+        "categories": [
+          "前端"
+        ],
+        "tags": [
+          "工作问题总结"
+        ],
+        "sticky": 0
+      },
+      "regularPath": "/blogs/1.html",
+      "relativePath": "blogs/1.md",
+      "key": "v-d8c17f70",
+      "path": "/blogs/1.html"
+    },
+    {
       "title": ".md文档写作规范",
       "frontmatter": {
         "title": ".md文档写作规范",
@@ -93,7 +93,7 @@ export const siteData = {
       },
       "regularPath": "/blogs/3.html",
       "relativePath": "blogs/3.md",
-      "key": "v-24b8b5ea",
+      "key": "v-385cad88",
       "path": "/blogs/3.html",
       "headers": [
         {
@@ -143,13 +143,38 @@ export const siteData = {
       },
       "regularPath": "/blogs/4.study.html",
       "relativePath": "blogs/4.study.md",
-      "key": "v-389cea4b",
+      "key": "v-77f7c170",
       "path": "/blogs/4.study.html",
       "headers": [
         {
           "level": 2,
           "title": "数组去重",
           "slug": "数组去重"
+        }
+      ]
+    },
+    {
+      "title": "LeetCode刷题",
+      "frontmatter": {
+        "title": "LeetCode刷题",
+        "date": "2023-2-2",
+        "categories": [
+          "LeetCode"
+        ],
+        "tags": [
+          "算法"
+        ],
+        "sticky": 0
+      },
+      "regularPath": "/blogs/5.leetcode.html",
+      "relativePath": "blogs/5.leetcode.md",
+      "key": "v-781279fc",
+      "path": "/blogs/5.leetcode.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 两数之和-简单难度",
+          "slug": "_1-两数之和-简单难度"
         }
       ]
     },
@@ -183,20 +208,20 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "工作问题总结 Tags"
-      },
-      "regularPath": "/tag/%E5%B7%A5%E4%BD%9C%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/",
-      "key": "v-9c80e83c",
-      "path": "/tag/工作问题总结/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
         "title": "mood Tags"
       },
       "regularPath": "/tag/mood/",
       "key": "v-142138a4",
       "path": "/tag/mood/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "工作问题总结 Tags"
+      },
+      "regularPath": "/tag/%E5%B7%A5%E4%BD%9C%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/",
+      "key": "v-9c80e83c",
+      "path": "/tag/工作问题总结/"
     },
     {
       "frontmatter": {
@@ -218,6 +243,24 @@ export const siteData = {
     },
     {
       "frontmatter": {
+        "layout": "Tag",
+        "title": "算法 Tags"
+      },
+      "regularPath": "/tag/%E7%AE%97%E6%B3%95/",
+      "key": "v-89abd2d6",
+      "path": "/tag/算法/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "随笔 Categories"
+      },
+      "regularPath": "/categories/%E9%9A%8F%E7%AC%94/",
+      "key": "v-2bf76980",
+      "path": "/categories/随笔/"
+    },
+    {
+      "frontmatter": {
         "layout": "Category",
         "title": "前端 Categories"
       },
@@ -228,11 +271,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "随笔 Categories"
+        "title": "LeetCode Categories"
       },
-      "regularPath": "/categories/%E9%9A%8F%E7%AC%94/",
-      "key": "v-2bf76980",
-      "path": "/categories/随笔/"
+      "regularPath": "/categories/LeetCode/",
+      "key": "v-39ba7548",
+      "path": "/categories/LeetCode/"
     }
   ],
   "themeConfig": {

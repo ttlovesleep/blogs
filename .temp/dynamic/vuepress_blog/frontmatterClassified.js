@@ -3,20 +3,20 @@
  */
 export default {
   "tags": {
-    "工作问题总结": {
-      "key": "工作问题总结",
-      "scope": "tags",
-      "path": "/tag/工作问题总结/",
-      "pageKeys": [
-        "v-48e637cb"
-      ]
-    },
     "mood": {
       "key": "mood",
       "scope": "tags",
       "path": "/tag/mood/",
       "pageKeys": [
-        "v-c976232a"
+        "v-34041230"
+      ]
+    },
+    "工作问题总结": {
+      "key": "工作问题总结",
+      "scope": "tags",
+      "path": "/tag/工作问题总结/",
+      "pageKeys": [
+        "v-d8c17f70"
       ]
     },
     "markdown": {
@@ -24,7 +24,7 @@ export default {
       "scope": "tags",
       "path": "/tag/markdown/",
       "pageKeys": [
-        "v-24b8b5ea"
+        "v-385cad88"
       ]
     },
     "js": {
@@ -32,27 +32,43 @@ export default {
       "scope": "tags",
       "path": "/tag/js/",
       "pageKeys": [
-        "v-389cea4b"
+        "v-77f7c170"
+      ]
+    },
+    "算法": {
+      "key": "算法",
+      "scope": "tags",
+      "path": "/tag/算法/",
+      "pageKeys": [
+        "v-781279fc"
       ]
     }
   },
   "categories": {
-    "前端": {
-      "key": "前端",
-      "scope": "categories",
-      "path": "/categories/前端/",
-      "pageKeys": [
-        "v-48e637cb",
-        "v-24b8b5ea",
-        "v-389cea4b"
-      ]
-    },
     "随笔": {
       "key": "随笔",
       "scope": "categories",
       "path": "/categories/随笔/",
       "pageKeys": [
-        "v-c976232a"
+        "v-34041230"
+      ]
+    },
+    "前端": {
+      "key": "前端",
+      "scope": "categories",
+      "path": "/categories/前端/",
+      "pageKeys": [
+        "v-d8c17f70",
+        "v-385cad88",
+        "v-77f7c170"
+      ]
+    },
+    "LeetCode": {
+      "key": "LeetCode",
+      "scope": "categories",
+      "path": "/categories/LeetCode/",
+      "pageKeys": [
+        "v-781279fc"
       ]
     }
   },
